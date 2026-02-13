@@ -1,0 +1,10 @@
+{
+  "/api/orders*": "/orders$1",
+  "/api/employees*": "/employees$1",
+  "/api/cashtoday*": "/cashtoday$1",
+  "/api/servicepoints*": "/servicepoints$1",
+  "/api/v1/orders*": "/orders$1",
+  "/api/v1/employees*": "/employees$1",
+  "/api/v1/cashtoday*": "/cashtoday$1",
+  "/api/v1/servicepoints*": "/servicepoints$1"
+}

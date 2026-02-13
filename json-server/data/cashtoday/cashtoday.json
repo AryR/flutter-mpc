@@ -1,0 +1,97 @@
+{
+    "cashToday": [
+        {
+            "id": 1,
+            "servicePointId": 1,
+            "date": "2024-11-25",
+            "openingBalance": 1000.00,
+            "sales": 2500.50,
+            "expenses": 150.25,
+            "closingBalance": 3350.25,
+            "status": "open",
+            "cashier": "Juan Pérez",
+            "transactions": [
+                {
+                    "id": 1,
+                    "type": "sale",
+                    "amount": 150.00,
+                    "description": "Venta producto A",
+                    "timestamp": "2024-11-25T09:30:00Z",
+                    "orderId": 1
+                },
+                {
+                    "id": 2,
+                    "type": "expense",
+                    "amount": 50.25,
+                    "description": "Gastos de oficina",
+                    "timestamp": "2024-11-25T14:15:00Z",
+                    "category": "office_supplies"
+                },
+                {
+                    "id": 3,
+                    "type": "sale",
+                    "amount": 299.99,
+                    "description": "Venta producto B",
+                    "timestamp": "2024-11-25T11:45:00Z",
+                    "orderId": 2
+                }
+            ],
+            "createdAt": "2024-11-25T08:00:00Z",
+            "updatedAt": "2024-11-25T18:30:00Z"
+        },
+        {
+            "id": 2,
+            "servicePointId": 2,
+            "date": "2024-11-25",
+            "openingBalance": 800.00,
+            "sales": 1800.75,
+            "expenses": 200.00,
+            "closingBalance": 2400.75,
+            "status": "open",
+            "cashier": "María García",
+            "transactions": [
+                {
+                    "id": 4,
+                    "type": "sale",
+                    "amount": 300.50,
+                    "description": "Venta producto C",
+                    "timestamp": "2024-11-25T10:45:00Z",
+                    "orderId": 3
+                },
+                {
+                    "id": 5,
+                    "type": "expense",
+                    "amount": 100.00,
+                    "description": "Mantenimiento equipos",
+                    "timestamp": "2024-11-25T15:20:00Z",
+                    "category": "maintenance"
+                }
+            ],
+            "createdAt": "2024-11-25T08:15:00Z",
+            "updatedAt": "2024-11-25T17:45:00Z"
+        },
+        {
+            "id": 3,
+            "servicePointId": 1,
+            "date": "2024-11-24",
+            "openingBalance": 950.00,
+            "sales": 3200.00,
+            "expenses": 180.50,
+            "closingBalance": 3969.50,
+            "status": "closed",
+            "cashier": "Juan Pérez",
+            "transactions": [
+                {
+                    "id": 6,
+                    "type": "sale",
+                    "amount": 850.00,
+                    "description": "Venta múltiples productos",
+                    "timestamp": "2024-11-24T12:30:00Z",
+                    "orderId": 4
+                }
+            ],
+            "createdAt": "2024-11-24T08:00:00Z",
+            "updatedAt": "2024-11-24T20:00:00Z"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "flutter-mpc-json-server",
+    "version": "1.0.0",
+    "description": "JSON Server para la aplicación Flutter MPC",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "start:dev": "node server.js",
+        "start:simple": "json-server --watch db.json --port 3000 --host localhost",
+        "start:routes": "json-server --watch db.json --routes routes/routes.json --port 3000 --host localhost",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "json-server",
+        "api",
+        "mock",
+        "flutter"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "json-server": "^0.17.4"
+    }
+}

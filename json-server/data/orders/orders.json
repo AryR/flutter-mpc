@@ -1,0 +1,107 @@
+{
+    "orders": {
+        "errors": [],
+        "type": "requestHistorialResponse",
+        "success": true,
+        "requestHistorials": {
+            "services": [
+                {
+                    "hasDate": false,
+                    "hasLimitDate": false,
+                    "isNonPerforming": false,
+                    "origin": "MYPROSEGUR",
+                    "requestedTime": "2025-10-16T12:48:30-05:00",
+                    "serviceCode": "88384656PE",
+                    "serviceId": "54731d28-aab8-11f0-94dc-c131b686fd31",
+                    "serviceStatusCode": "RECEIVED",
+                    "serviceStatusDescription": "Recibido",
+                    "serviceType": 4
+                },
+                {
+                    "hasDate": false,
+                    "hasLimitDate": false,
+                    "isNonPerforming": false,
+                    "origin": "MYPROSEGUR",
+                    "requestedTime": "2025-09-30T16:29:49-05:00",
+                    "serviceCode": "88382644PE",
+                    "serviceId": "9906595f-9e44-11f0-805a-bbe5df0f51d5",
+                    "serviceStatusCode": "CANCELLED",
+                    "serviceStatusDescription": "Cancelado",
+                    "serviceType": 4
+                },
+                {
+                    "hasDate": false,
+                    "hasLimitDate": false,
+                    "isNonPerforming": false,
+                    "origin": "MYPROSEGUR",
+                    "requestedTime": "2025-09-05T11:38:39-05:00",
+                    "serviceCode": "88380133PE",
+                    "serviceId": "c71c9b92-8a76-11f0-824e-75f7d74a63c3",
+                    "serviceStatusCode": "CANCELLED",
+                    "serviceStatusDescription": "Cancelado",
+                    "serviceType": 4
+                },
+                {
+                    "hasDate": true,
+                    "hasLimitDate": false,
+                    "isChange": false,
+                    "isNonPerforming": false,
+                    "origin": "MYPROSEGUR",
+                    "requestFinalTime": "2025-11-19T19:00:00-05:00",
+                    "requestInitialTime": "2025-11-19T06:00:00-05:00",
+                    "requestedTime": "2025-11-18T15:11:43-05:00",
+                    "serviceCode": "88389135PE",
+                    "serviceId": "cde678d0-c4ba-11f0-9699-29fb703f6c1a",
+                    "serviceStatusCode": "RECEIVED",
+                    "serviceStatusDescription": "Recibido",
+                    "serviceType": 0
+                },
+                {
+                    "hasDate": true,
+                    "hasLimitDate": false,
+                    "isChange": false,
+                    "isNonPerforming": false,
+                    "origin": "MYPROSEGUR",
+                    "requestFinalTime": "2025-11-19T19:00:00-05:00",
+                    "requestInitialTime": "2025-11-19T06:00:00-05:00",
+                    "requestedTime": "2025-11-18T15:11:47-05:00",
+                    "serviceCode": "88389138PE",
+                    "serviceId": "cfd8fa0c-c4ba-11f0-9699-87b085641a38",
+                    "serviceStatusCode": "RECEIVED",
+                    "serviceStatusDescription": "Recibido",
+                    "serviceType": 0
+                },
+                {
+                    "hasDate": true,
+                    "hasLimitDate": false,
+                    "isChange": false,
+                    "isNonPerforming": false,
+                    "origin": "MYPROSEGUR",
+                    "requestFinalTime": "2025-11-19T19:00:00-05:00",
+                    "requestInitialTime": "2025-11-19T06:00:00-05:00",
+                    "requestedTime": "2025-11-18T15:11:46-05:00",
+                    "serviceCode": "88389137PE",
+                    "serviceId": "cf425f58-c4ba-11f0-9699-490e02777b1a",
+                    "serviceStatusCode": "RECEIVED",
+                    "serviceStatusDescription": "Recibido",
+                    "serviceType": 0
+                },
+                {
+                    "hasDate": true,
+                    "hasLimitDate": false,
+                    "isChange": false,
+                    "isNonPerforming": false,
+                    "origin": "MYPROSEGUR",
+                    "requestFinalTime": "2025-11-19T19:00:00-05:00",
+                    "requestInitialTime": "2025-11-19T06:00:00-05:00",
+                    "requestedTime": "2025-11-18T15:11:45-05:00",
+                    "serviceCode": "88389136PE",
+                    "serviceId": "ce9f4184-c4ba-11f0-9699-ef9d5a2df805",
+                    "serviceStatusCode": "RECEIVED",
+                    "serviceStatusDescription": "Recibido",
+                    "serviceType": 0
+                }
+            ]
+        }
+    }
+}
